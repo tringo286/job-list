@@ -1,8 +1,35 @@
-# React + Vite
+# Job Listing Website with React and Mock Backend
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a simple job listing website built with **React** that allows users to view, edit, and delete job listings. It uses **json-server** to simulate a backend for storing and managing the job listings.
 
-Currently, two official plugins are available:
+## Features
+- View a list of all job listings.
+- Edit job details.
+- Delete job listings.
+- Mock backend with **json-server**.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Prerequisites
+Before you begin, make sure you have the following installed:
+
+- **Node.js**: [Download and install Node.js](https://nodejs.org/)
+- **npm** (Node Package Manager): It comes bundled with Node.js.
+
+## Setup
+
+1. Clone the repository:  
+   ```bash
+    git clone https://github.com/tringo286/job-list.git
+    cd job-list
+2. Install dependencies:
+   ```bash
+   npm install
+3. Run the json-server (mock backend):
+
+    The server will run on http://localhost:8000
+    ```bash
+    npm run server
+4. Start the React development server:
+
+    React will run on http://localhost:3000
+    ```bash  
+    npm run dev

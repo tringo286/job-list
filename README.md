@@ -8,12 +8,6 @@ This project is a simple job listing website built with **React** that allows us
 - Delete job listings.
 - Mock backend with **json-server**.
 
-## Prerequisites
-Before you begin, make sure you have the following installed:
-
-- **Node.js**: [Download and install Node.js](https://nodejs.org/)
-- **npm** (Node Package Manager): It comes bundled with Node.js.
-
 ## Setup
 
 1. Clone the repository:  
@@ -33,3 +27,6 @@ Before you begin, make sure you have the following installed:
     React will run on http://localhost:3000
     ```bash  
     npm run dev
+
+## Demo 
+![Demo](public/screen.png)
